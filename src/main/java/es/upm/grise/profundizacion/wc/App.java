@@ -15,7 +15,7 @@ public class App {
 		}
 
 		// If more than 2 parameters are given, we stop without further information
-		if(args.length != 2) {
+		if(args.length >= 2) {
 			System.out.println("Wrong arguments!");
 			return;
 		}
